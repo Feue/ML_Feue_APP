@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextStyle.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        tools:text="我的" />
+
+    <ImageView
+        android:id="@+id/course_add"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end|center_vertical"
+        android:paddingStart="5dp"
+        android:paddingEnd="15dp"
+        android:src="@drawable/ic_course_add"/>
+
+</FrameLayout>

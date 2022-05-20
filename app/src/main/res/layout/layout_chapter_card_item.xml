@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chapter_name"
+            style="@style/TextStyle.Content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textColor="@color/xui_config_color_pure_black"
+            android:text="第一章 C语言的过去与未来"/>
+
+        <TextView
+            android:id="@+id/chapter_about"
+            style="@style/TextStyle.Explain"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:text="简介：C语言的过去与未来"/>
+
+    </LinearLayout>
+
+</LinearLayout>

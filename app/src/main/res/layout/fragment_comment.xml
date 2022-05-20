@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/xui_config_color_background">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.xuexiang.xui.widget.button.shinebutton.ShineButton
+                android:id="@+id/shine_button_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:sb_enable_flashing="true"
+                app:sb_icon_image="@drawable/ic_star"
+                app:sb_shine_size="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.xuexiang.xui.widget.button.shinebutton.ShineButton
+                android:id="@+id/shine_button_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:sb_enable_flashing="true"
+                app:sb_icon_image="@drawable/ic_star"
+                app:sb_shine_size="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.xuexiang.xui.widget.button.shinebutton.ShineButton
+                android:id="@+id/shine_button_3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:sb_enable_flashing="true"
+                app:sb_icon_image="@drawable/ic_star"
+                app:sb_shine_size="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.xuexiang.xui.widget.button.shinebutton.ShineButton
+                android:id="@+id/shine_button_4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:sb_enable_flashing="true"
+                app:sb_icon_image="@drawable/ic_star"
+                app:sb_shine_size="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.xuexiang.xui.widget.button.shinebutton.ShineButton
+                android:id="@+id/shine_button_5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:sb_enable_flashing="true"
+                app:sb_icon_image="@drawable/ic_star"
+                app:sb_shine_size="20dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.xuexiang.xui.widget.layout.XUIFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.xuexiang.xui.widget.edittext.MultiLineEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    </com.xuexiang.xui.widget.layout.XUIFrameLayout>
+
+</LinearLayout>
